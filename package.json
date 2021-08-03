@@ -1,0 +1,27 @@
+{
+  "name": "postgresqlRestAPI",
+  "version": "1.0.0",
+  "description": "This is a project where we make a Rest API using postgresql, for testing.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canielcm/postgresqlRestAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canielcm/postgresqlRestAPI/issues"
+  },
+  "homepage": "https://github.com/canielcm/postgresqlRestAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
